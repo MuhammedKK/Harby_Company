@@ -1,0 +1,403 @@
+/* Layout Packages */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+p {
+  line-height: 1.8;
+}
+
+/* Layout Files */
+.navbar {
+  background-color: #252830;
+  border: 1px solid #252830;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  margin-right: 5px;
+}
+display:inline-block .navbar-default .navbar-nav > li > a:hover {
+  color: #2980b9;
+}
+.navbar-default .navbar-nav > li > a.btn {
+  border-radius: 0;
+}
+.navbar-default .navbar-nav > li > a.btn-primary {
+  background-color: #2980b9;
+  border: 1px solid #2980b9;
+}
+
+/* Start Header Section */
+header {
+  background-image: url("../imgs/header4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+header .header-content {
+  padding: 50px 0;
+  color: #fff;
+}
+header .header-content p:first-of-type {
+  margin-top: 70px;
+  font-size: 60px;
+}
+header .header-content h1 {
+  font-size: 110px;
+  margin: 0;
+  margin-bottom: 50px;
+}
+header .header-content p:last-of-type {
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
+header .header-content .offers-btns a {
+  padding: 20px;
+  font-size: 18px;
+  margin-right: 10px;
+  transition: all 0.5s ease-in-out;
+}
+header .header-content .offers-btns a.btn-primary-white {
+  background-color: #fff;
+  color: #2980b9;
+}
+header .header-content .offers-btns a.btn-default {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+header .header-content .offers-btns a.btn-default:hover {
+  background-color: #2980b9;
+  border: 1px solid #2980b9;
+}
+
+/* End Header Section */
+/* Start Prices Section */
+.prices {
+  background-color: #252830;
+  color: #fff;
+}
+.prices .pri-boxes {
+  padding: 60px 0;
+}
+.prices .pri-boxes .box {
+  background-color: #1C1E24;
+  border: 1px solid #1C1E24;
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+.prices .pri-boxes .box h4 {
+  margin: 20px 0 50px;
+  font-size: 24px;
+}
+.prices .pri-boxes .box span {
+  display: block;
+  margin: 0 0 60px;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+.prices .pri-boxes .box .box-img {
+  position: relative;
+}
+.prices .pri-boxes .box .box-img img {
+  width: 100%;
+  height: 200px;
+}
+.prices .pri-boxes .box .box-img span {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  display: inline-block;
+}
+.prices .pri-boxes .box .box-img span small {
+  font-size: 14px;
+  color: #fff;
+}
+.prices .pri-boxes .box p {
+  color: #999;
+  line-height: 1.8;
+  font-size: 16px;
+  margin-bottom: 23px;
+  padding: 0 20px;
+  margin-top: 60px;
+}
+.prices .pri-boxes .box a {
+  display: block;
+  padding: 13px;
+  width: 80%;
+  margin: auto;
+  background-color: #2980b9;
+}
+
+/* End Prices Section */
+/* Start Benefits Section */
+.benefits {
+  background-color: #1C1E24;
+  background-image: url("../imgs/header3.jpg");
+  background-attachment: fixed;
+  color: #fff;
+}
+.benefits .bene-content {
+  padding: 100px 0;
+  margin-left: 50%;
+}
+@media (max-width: 767px) {
+  .benefits .bene-content {
+    margin-left: auto;
+  }
+}
+.benefits .bene-content h3 {
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+.benefits .bene-content p {
+  color: #999;
+  margin-bottom: 35px;
+}
+.benefits .bene-content .bene-boxes {
+  margin: 30px 0;
+}
+.benefits .bene-content .bene-boxes .bene-box {
+  margin-bottom: 20px;
+  background-color: #252830;
+}
+.benefits .bene-content .bene-boxes .bene-box .box-head {
+  padding: 10px 15px;
+  color: #2980b9;
+  cursor: pointer;
+  border-bottom: 1px solid #1C1E24;
+}
+.benefits .bene-content .bene-boxes .bene-box .box-head h4 {
+  display: inline-block;
+  margin-left: 10px;
+}
+.benefits .bene-content .bene-boxes .bene-box .box-head .fa-chevron-down, .benefits .bene-content .bene-boxes .bene-box .box-head .fa-chevron-up {
+  margin: 10px;
+}
+.benefits .bene-content .bene-boxes .box-desc {
+  padding: 10px 15px;
+  display: none;
+}
+.benefits .bene-content .bene-boxes .box-desc p {
+  margin-bottom: 0;
+  color: #fff;
+}
+
+/* End Benefits Section */
+/* Start Services Section */
+.services {
+  background-color: #252830;
+  color: #fff;
+}
+.services .ser-content {
+  padding: 80px 0;
+}
+.services .ser-content .media {
+  margin-bottom: 30px;
+}
+.services .ser-content .media .media-left a i {
+  font-size: 41px;
+  color: #2980b9;
+}
+.services .ser-content .media-body {
+  padding-left: 20px;
+}
+.services .ser-content .media-body h4 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.services .ser-content .media-body p {
+  color: #999;
+}
+
+/* End Services Section */
+/* Start Clients Section */
+.clients {
+  background-image: url("../imgs/clients.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+.clients h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 80px;
+}
+.clients p {
+  padding: 0 30px 30px;
+  color: #999;
+}
+.clients .clients-members {
+  margin: 50px 0;
+}
+.clients .clients-members .logos img {
+  margin-bottom: 30px;
+}
+
+/* End Clients Section */
+/* Start Testi Section */
+.testi {
+  background-color: #252830;
+  color: #fff;
+}
+.testi .testi-content {
+  padding: 80px 0;
+}
+.testi .testi-content .testi-box {
+  margin-bottom: 30px;
+  border: 1px solid #999;
+  padding: 36px 25px;
+}
+.testi .testi-content .testi-box i {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.testi .testi-content .testi-box .fa-twitter {
+  color: #1da1f2;
+}
+.testi .testi-content .testi-box .fa-facebook {
+  color: #3b5998;
+}
+.testi .testi-content .testi-box .fa-instagram {
+  color: #c13584;
+}
+.testi .testi-content .testi-box .fa-pinterest {
+  color: #e74c3c;
+}
+.testi .testi-content .testi-box .fa-linkedin {
+  color: #0077b5;
+}
+.testi .testi-content .testi-box .fa-github {
+  color: #999;
+}
+.testi .testi-content .testi-box h4 {
+  margin-top: 30px;
+  color: #999;
+  font-size: 16px;
+}
+
+/* End Testi Section */
+/* Start Offers Section */
+.offers {
+  background-image: url("../imgs/header4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.offers .offer-content {
+  padding: 80px 0;
+  color: #fff;
+}
+.offers .offer-content span {
+  margin-top: 70px;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+.offers .offer-content h4 {
+  font-size: 60px;
+  margin: 0;
+  margin-bottom: 50px;
+}
+.offers .offer-content .offer-actions a {
+  padding: 20px 40px;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.offers .offer-content .offer-actions a.btn-info {
+  background-color: #2980b9;
+  border: 1px solid #2980b9;
+}
+.offers .offer-content .offer-actions small {
+  display: block;
+  margin: 25px 15px;
+  font-size: 16px;
+  color: #999;
+}
+
+/* End Offers Section */
+/* Start Sub Section */
+.sub {
+  background-color: #2980b9;
+  color: #fff;
+}
+.sub .sub-content {
+  padding: 80px 0;
+}
+.sub .sub-content h3 {
+  font-size: 60px;
+  letter-spacing: 3px;
+  margin-bottom: 40px;
+}
+.sub .sub-content form {
+  position: relative;
+}
+.sub .sub-content form input {
+  display: inline-block;
+}
+.sub .sub-content form i {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  color: #2980b9;
+  font-size: 20px;
+}
+.sub .sub-content p {
+  margin-top: 35px;
+  font-size: 17px;
+  color: #ddd;
+}
+
+/* End Sub Section */
+footer {
+  background-color: #252830;
+  color: #fff;
+}
+footer .footer-content {
+  padding: 80px 0;
+}
+footer .footer-content .foot-logo {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-items: start;
+}
+footer .footer-content .foot-logo span {
+  margin-top: 30px;
+}
+footer .footer-content .foot-lists {
+  text-align: right;
+}
+@media (max-width: 767px) {
+  footer .footer-content .foot-lists {
+    text-align: center;
+  }
+}
+footer .footer-content .foot-lists h4 {
+  margin-bottom: 30px;
+  font-size: 26px;
+}
+footer .footer-content .foot-lists ul {
+  margin-bottom: 30px;
+}
+footer .footer-content .foot-lists ul li {
+  margin-bottom: 10px;
+}
+footer .footer-content .foot-lists ul li a {
+  color: #fff;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */

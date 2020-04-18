@@ -1,0 +1,29 @@
+.navbar {
+    background-color:$sub-color;
+    border:1px solid $sub-color;
+    border-radius:0;
+    margin-bottom: 0;
+}
+.navbar-default {
+    .navbar-nav {
+        & > li {
+            & > a {
+                color:#fff;
+                margin-right:5px;
+                display:inline-block
+                
+                &:hover{
+                    color:$main-color;
+                }
+            }
+            & > a.btn {
+                border-radius: 0;
+            }
+            & > a.btn-primary {
+                background-color:$main-color;
+                border:1px solid $main-color;
+            }
+            
+        }
+    }
+}

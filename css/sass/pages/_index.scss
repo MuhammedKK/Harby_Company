@@ -1,0 +1,344 @@
+/* Start Header Section */
+header {
+    background-image: url('../imgs/header4.jpg');
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    .header-content {
+        padding:50px 0;
+        color:#fff;
+        & p:first-of-type {
+            margin-top: 70px;
+            font-size: 60px;
+        }
+        h1 {
+            font-size:110px;
+            margin: 0;
+            margin-bottom: 50px;
+        }
+        & p:last-of-type {
+            margin-bottom: 30px;
+            line-height: 1.8;
+        }
+        .offers-btns {
+            a {
+                padding: 20px;
+                font-size: 18px;
+                margin-right: 10px;
+                transition:all .5s ease-in-out
+            }
+            a.btn-primary-white {
+                background-color:#fff;
+                color:$main-color;
+            }
+            a.btn-default {
+                background:transparent;
+                color:#fff;
+                border:1px solid #fff;
+                
+                &:hover {
+                    background-color:$main-color;
+                    border:1px solid $main-color
+                }
+            }
+        }
+    }
+}
+/* End Header Section */
+
+/* Start Prices Section */
+
+.prices {
+    background-color:$sub-color;
+    color:#fff;
+    .pri-boxes {
+        padding:60px 0;
+        .box {
+            background-color:$box-color;
+            border:1px solid $box-color;
+            padding:20px 0;
+            margin-bottom:30px;
+            h4 {
+                margin: 20px 0 50px;
+                font-size: 24px;
+            }
+            span {
+                display: block;
+                margin: 0 0 60px;
+                font-size: 40px;
+                text-transform:capitalize;
+            }
+            .box-img {
+                position: relative;
+                img {
+                    width: 100%;
+                    height: 200px;
+                }
+                span {
+                    position: absolute;
+                    top: 40px;
+                    left: 40px;
+                    display: inline-block;
+                    small {
+                        font-size: 14px;
+                        color: #fff;
+                    }
+                }
+            }
+            p {
+                color: #999;
+                line-height: 1.8;
+                font-size: 16px;
+                margin-bottom: 23px;
+                padding:0 20px;
+                margin-top: 60px;
+            }
+            a {
+                display: block;
+                padding: 13px;
+                width: 80%;
+                margin: auto;
+                background-color:$main-color;
+            }
+        }
+    }
+}
+
+/* End Prices Section */
+
+/* Start Benefits Section */
+
+.benefits {
+    background-color: $box-color;
+    background-image: url('../imgs/header3.jpg');
+    background-attachment: fixed;
+    color:#fff;
+    .bene-content {
+        padding:100px 0;
+        margin-left: 50%;
+        @media (max-width:767px) {
+            margin-left: auto;
+        }
+        h3 {
+            font-size: 35px;
+            margin-bottom: 50px;
+        }
+        p {
+            color:#999;
+            margin-bottom: 35px;
+        }
+        .bene-boxes {
+            margin: 30px 0;
+            .bene-box {
+                margin-bottom: 20px;
+                background-color:$sub-color;
+                .box-head {
+                    padding:10px 15px;
+                    color:$main-color;
+                    cursor: pointer;
+                    border-bottom:1px solid $box-color;
+                    h4 {
+                        display: inline-block;
+                        margin-left: 10px;                    
+                    }
+                    .fa-chevron-down,.fa-chevron-up {
+                        margin: 10px;
+                    }
+                }
+            }
+            .box-desc {
+                padding: 10px 15px;
+                display: none;
+                p {
+                    margin-bottom: 0;
+                    color:#fff;
+                }
+            }
+        }
+    }
+}
+
+/* End Benefits Section */
+
+/* Start Services Section */
+
+.services {
+    background-color: $sub-color;
+    color:#fff;
+    .ser-content {
+        padding:80px 0;
+        .media {
+            margin-bottom: 30px;
+            .media-left {
+                a {
+                    i {
+                        font-size: 41px;
+                        color:$main-color
+                    }
+                }
+            }
+        }
+        .media-body {
+            padding-left: 20px;
+            h4 {
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+            p {
+                color:#999
+            }
+        }
+    }
+}
+
+/* End Services Section */
+
+/* Start Clients Section */
+
+.clients {
+    background-image: url('../imgs/clients.jpg');
+    background-size: cover;
+    background-position: center;
+    color:#fff;
+    h3 {
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-top: 80px;
+    }
+    p {
+        padding:0 30px 30px;
+        color:#999;
+    }
+    .clients-members {
+        margin:50px 0;
+        .logos {
+            
+            img {
+                margin-bottom:30px
+            }
+        }
+    }
+}
+
+/* End Clients Section */
+
+/* Start Testi Section */
+
+.testi {
+    background-color: $sub-color;
+    color:#fff;
+    .testi-content {
+        padding:80px 0;
+        .testi-box {
+            margin-bottom: 30px;
+            border: 1px solid #999;
+            padding: 36px 25px;
+            i {
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+            .fa-twitter {
+                color: #1da1f2;
+            }
+            .fa-facebook {
+                color:#3b5998
+            }
+            .fa-instagram {
+                color:#c13584
+            }
+            .fa-pinterest {
+                color:#e74c3c
+            }
+            .fa-linkedin {
+                color:#0077b5
+            }
+            .fa-github {
+                color:#999
+            }
+            h4 {
+                margin-top: 30px;
+                color: #999;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+/* End Testi Section */
+
+/* Start Offers Section */
+
+.offers {
+    background-image: url('../imgs/header4.jpg');
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    .offer-content {
+        padding:80px 0;
+        color:#fff;
+        span {
+            margin-top: 70px;
+            font-size: 60px;
+            text-transform: uppercase;
+        }
+        h4 {
+            font-size:60px;
+            margin: 0;
+            margin-bottom: 50px;
+        }
+        .offer-actions {
+            a {
+                padding: 20px 40px;
+                font-size: 18px;
+                margin-right: 10px;
+            }
+            a.btn-info {
+                background-color:$main-color;
+                border:1px solid $main-color;
+            }
+            small {
+                display: block;
+                margin: 25px 15px;
+                font-size: 16px;
+                color: #999;
+            }
+        }
+    }
+}
+
+/* End Offers Section */
+
+/* Start Sub Section */
+
+.sub {
+    background-color:$main-color;
+    color:#fff;
+    .sub-content {
+        padding:80px 0;
+        h3 {
+            font-size: 60px;
+            letter-spacing: 3px;
+            margin-bottom: 40px;
+        }
+        form {
+            position:relative;
+            input {
+                display: inline-block;
+            }
+            i {
+                position: absolute;
+                top: 12px;
+                right: 20px;
+                color: $main-color;
+                font-size: 20px;
+            }
+        }
+        p {
+            margin-top: 35px;
+            font-size: 17px;
+            color: #ddd;
+        }
+    }
+}
+
+/* End Sub Section */
