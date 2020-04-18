@@ -3,6 +3,9 @@
     border:1px solid $sub-color;
     border-radius:0;
     margin-bottom: 0;
+    .navbar-brand {
+        color:$main-color;
+    }
 }
 .navbar-default {
     .navbar-nav {
@@ -10,8 +13,8 @@
             & > a {
                 color:#fff;
                 margin-right:5px;
-                display:inline-block
-                
+                display:inline-block;
+                transition:all .5s ease-in-out;
                 &:hover{
                     color:$main-color;
                 }
@@ -22,6 +25,16 @@
             & > a.btn-primary {
                 background-color:$main-color;
                 border:1px solid $main-color;
+                &:hover {
+                    color:#fff;
+                }
+            }
+            & > a.btn-success:hover {
+                background-color: #5cb85c;
+                opacity:.9;
+                &:hover {
+                    color:#fff;
+                }
             }
             
         }
