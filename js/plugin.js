@@ -3,7 +3,7 @@ $(function () {
     // Toggle Show Contetn of The Box
 
     $('.box-head').click(function() {
-        $('.box-desc').slideToggle(400).toggleClass('show');
+        $(this).next().slideToggle(400).toggleClass('show');
         if($('.box-desc').hasClass('show')) {
             $('i.fa-chevron-down').removeClass('fa-chevron-down').addClass('fa-chevron-up');
         } else{
